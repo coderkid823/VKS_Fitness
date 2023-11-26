@@ -1,0 +1,24 @@
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown menu content (visible on hover) */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-menu li a {
+    padding: 10px;
+    display: block;
+    color: orange; /* Text color inside the dropdown menu */
+    text-decoration: none;
+}
+
+/* Change background color on hover */
+.dropdown-menu li a:hover {
+    background-color: gray; /* Background color on hover */
+    color: orange; /* Text color on hover */
+}
+

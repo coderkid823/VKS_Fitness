@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: rgb(48, 46, 46);
+    color: orange;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the profile container */
+.profile-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgb(48, 46, 46);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the profile picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Style the headings and paragraphs */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Center the text in the header */
+header h1 {
+    text-align: center;
+}
+
+/* Center the profile container */
+.profile-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    color: orange;
+}
+
+/* Add some spacing between elements */
+.profile-container p {
+    margin-top: 10px;
+}
+
+
+.logo-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+header {
+    background-color:rgb(48, 46, 46);
+    color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the logo */
+.logo {
+    margin-right: 20px;
+    color: orange;
+}
+
+.logo-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the header text */
+.header-text {
+    text-align: center;
+    margin-right: 665px;
+}

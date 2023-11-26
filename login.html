@@ -1,0 +1,260 @@
+<html lang="zxx"><head>
+	<!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="copyright" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Title Tag  -->
+    <title>VKS Fitness</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Web Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+	
+	<!-- StyleSheet -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+	<!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Fancybox -->
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Nice Select CSS -->
+    <link rel="stylesheet" href="css/niceselect.css">
+	<!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+	<!-- Flex Slider CSS -->
+    <link rel="stylesheet" href="css/flex-slider.min.css">
+	<!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+	<!-- Slicknav -->
+    <link rel="stylesheet" href="css/slicknav.min.css">
+	
+	<!-- Eshop StyleSheet -->
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+	
+	
+<style type="text/css" id="operaUserStyle"></style></head>
+<body class="js">
+	
+	<!-- Preloader -->
+	<div class="preloader" style="display: none;">
+		<div class="preloader-inner">
+			<div class="preloader-icon">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<!-- End Preloader -->
+	
+	
+	<!-- Header -->
+	<header class="header shop">
+		<!-- Topbar -->
+		
+		<!-- End Topbar -->
+		
+						<!-- Logo -->
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+						</div>
+						<!--/ End Logo -->
+						
+		<!-- Header Inner -->
+		<div class="header-inner">
+			<div class="container">
+				<div class="nav-head">
+					<div class="row">
+						<div class="row-side">
+							
+							
+							
+						</div>
+							<div class="menu-area">
+								<!-- Main Menu -->
+								<nav class="navbar navbar-expand-lg">
+									<div class="navbar-collapse">	
+										<div class="nav-inner">	
+											<ul class="nav main-menu menu navbar-nav">
+													<li class="myworkout-content"><a href="myworkout.html">My Workout</a></li>
+													<li class="contactus-content"><a href="contact.html">Contact Us</a></li>
+													<li class="login-content"><a href="login.html">Log in</a></li>
+													<li class="yourclass-content"><a href="yourclass.html">Your Class</a></li>
+													<li class="search-icon"><a href="#"><img src="../Template Main/images/search-icon-removebg-preview.png" alt=""></a></li>
+
+													<div class="dropdown-profile-icon">
+														<h3 class="profile-icon"><img src="../Template Main/images/profilelogo.png" alt=""></h3>
+															<ul class="dropdown-content">
+																<li><a href="login.html">Log In</a></li>
+																<li><a href="profile.html">Profile</i></a></li>
+																<li><a href="settings.html">Settings</i></a>
+																<li><a href="premium.html">Premium</a></li>
+																<li><a href="termsofservise.html">Terms of Service</a></li>
+															</ul>
+													</div>		
+											</ul>
+										</div>
+									</div>
+									
+								</nav>
+								<!--/ End Main Menu -->	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!--/ End Header -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <body>
+        
+	
+        <div class="wrapper">
+            <form action="">
+                
+
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" id="email" name="email" placeholder="E-mail" required>
+                   
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name ="password" placeholder="Password" required>
+                   
+                </div>
+
+                <div class="remember-forgot">
+                    <label class="remember-me"><input type="checkbox">Remember me</label> 
+                    <a href="#">Forgot Password</a>
+                </div>
+
+               
+                <input class="btn" type="submit" id="login" name="login" value="Login">  
+                    
+
+                <div class="signup-link">
+                    <p class="donthaveanaccount">Dont have an account? <a href="signup.html">Sign Up</a></p>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+    import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js";
+    import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js"; // Corrected import
+
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCuqx-nsxsMaSPhQo-MNx1ySe19pk4vyBM",
+      authDomain: "vks-web.firebaseapp.com",
+      databaseURL: "https://vks-web-default-rtdb.firebaseio.com",
+      projectId: "vks-web",
+      storageBucket: "vks-web.appspot.com",
+      messagingSenderId: "985561436267",
+      appId: "1:985561436267:web:6d3382f08dd58bf2dce12e",
+      measurementId: "G-WQBTZ906YL"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+    const loginButton = document.getElementById('login');
+ 
+    loginButton.addEventListener('click', (e) => {
+    })
+   // Your existing code here
+
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    
+
+    
+loginButton.addEventListener('click' ,(e) => {
+    e.preventDefault();
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+    // Signed in 
+                const user = userCredential.user;
+                
+                const dt = new Date();
+                 update(ref(database, 'users/' + user.uid),{
+                    last_login: dt, 
+                 })
+                    alert('User logged in!')
+    // ...
+
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+
+                alert(errorMessage);
+  });
+
+
+
+});
+
+const user = auth.currentUser;
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/auth.user
+    const uid = user.uid;
+    // ...
+  } else {
+    // User is signed out
+    // ...
+  }
+});
+
+logout.addEventListener('click',(e) => {
+
+    signOut(auth).then(() => {
+  // Sign-out successful.
+    }).catch((error) => {
+  // An error happened.
+    });
+
+
+});
+
+  </script>
